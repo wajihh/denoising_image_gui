@@ -1,0 +1,13 @@
+[project]
+name = "denoising-image-gui"
+version = "0.1.0"
+description = "Wavelet-Based Image Denoising App"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.5",
+    "numpy>=2.3.2",
+    "pywavelets>=1.9.0",
+    "scikit-image>=0.25.2",
+    "streamlit>=1.48.0",
+]
